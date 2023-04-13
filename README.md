@@ -57,12 +57,12 @@ The details of Architecture desgin:
 #We got imablanced dataset The team built four models, with the Base model showing a significant difference in training and validation accuracy. With more Dropout layers, Model-2's performance improved, and Model-3 further improved after data augmentation with TensorFlow. Finally, Model-4 included class imbalance treatment with the Augmentor library. The training accuracy improved to nearly 92%, and the validation accuracy was around 80%. While the team noted that more extensive models with more layers and epochs could be built, the current model helped treat overfitting to some extent.
 
 -Details of Four models we have built:
-1)Base model-1 which is base model trained on 20epochs and with less dropout layer which has huge difference in training and validation accuracy(Training accuracy 73% and validation accuracy is 50%) by this it seems that model is overfit.
+1)Base model-1 which is base model trained on 20epochs and with less dropout layer which has huge difference in training and validation accuracy(Training accuracy 83% and validation accuracy is 55%) by this it seems that model is overfit.
 
-2)Model-2 with more dropout layer the model performance is improved and training accuracy increase to 55% and validation set accuracy is 50%.(By adding dropout layer we were trying to avoid overfitting in the model)
+2)Model-2 with more dropout layer the model performance is improved and training accuracy increase to 48% and validation set accuracy is 48%.(By adding dropout layer we were trying to avoid overfitting in the model)
 
-3)Model-3 after augumenting the data with tensor flow  the training acccuracy is 45% and and the validation accuracy
-43% 
+3)Model-3 after augumenting the data with tensor flow  the training acccuracy is 43% and and the validation accuracy
+41% 
 
 4)Model-4 class imbalance treatment with augumentor library :
 - The training accuracy seems to be nearly**~92%**.
